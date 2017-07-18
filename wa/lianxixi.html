@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+<style>
+	 
+.category_nav{
+	width: 500px;
+}
+.category_nav li{
+    display: inline-block;
+   width: 50px;
+}
+.category_nav li a{
+    display: inline-block;
+}
+</style>
+<body>
+<div id="wrapper">
+            <ul class="category_nav" id="category_nav">
+                
+                <li><a href="#" data-titleId="0">全部</a></li>
+                
+                <li><a href="#" data-titleId="1">热销</a></li>
+                
+                <li><a href="#" data-titleId="2">9块邮</a></li>
+                
+                <li><a href="#" data-titleId="3">19块邮</a></li>
+                
+                <li><a href="#" data-titleId="4">数码家电</a></li>
+                
+                <li><a href="#" data-titleId="5">居家</a></li>
+                
+                <li><a href="#" data-titleId="6">美食</a></li>
+                
+                <li><a href="#" data-titleId="7">男装</a></li>
+                
+                <li><a href="#" data-titleId="8">女装</a></li>
+                
+                <li><a href="#" data-titleId="9">鞋包配饰</a></li>
+                
+                <li><a href="#" data-titleId="10">文体</a></li>
+                
+                <li><a href="#" data-titleId="11">母婴</a></li>
+                
+                <li><a href="#" data-titleId="12">美妆</a></li>
+                
+            </ul>
+        </div>
+</body>
+<script type="text/javascript" src='jquery.js'></script>
+<script type="text/javascript" src='iscroll.js'></script>
+<script>
+// var myScroll;
+// function loaded() {
+// 	myScroll = new iScroll('wrapper');
+// }
+
+// document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+// document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
+ //    首页导航条滚动
+
+ var myscroll=new iScroll("wrapper",{
+     scrollX: true,  
+     scrollY: false, 
+     hScrollbar:false,
+     vScrollbar : false,
+     vScroll:false
+ })
+</script>
+
+</html>
